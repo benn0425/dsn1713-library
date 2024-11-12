@@ -1,0 +1,60 @@
+// Custom.scss
+// Option A: Include all of Bootstrap
+@import url("https://fonts.googleapis.com/css2?family=Tilt+Neon&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Agbalumo&display=swap");
+// Include any default variable overrides here (though functions won't be available)
+@import 'animate.compat.css';
+@import 'attention_seekers/bounce.css';
+@import 'attention_seekers/flash.css';
+@import 'attention_seekers/pulse.css';
+@import 'attention_seekers/rubberBand.css';
+@import 'attention_seekers/shake.css';
+@import 'attention_seekers/headShake.css';
+@import 'attention_seekers/swing.css';
+@import 'attention_seekers/tada.css';
+@import 'attention_seekers/wobble.css';
+@import 'attention_seekers/jello.css';
+@import 'attention_seekers/heartBeat.css';
+
+// body bg color
+$body-bg: rgb(234, 255, 160);
+
+
+// Theme colors
+// https://getbootstrap.com/docs/5.3/customize/color/#theme-colors
+$primary: #75ac0e;
+$secondary: #7d82b8;
+$success: #b7e3cc;
+$info: #c4ffb2;
+$warning: #d6f7a3;
+$danger: #dd7596;
+$light: #f2f2f2;
+$dark: #2c551e;
+
+
+// Changing navbar
+$navbar-light-color: rgb(225, 225, 225);
+$navbar-light-hover-color: rgb(0, 0, 0);
+$navbar-light-active-color: rgb(255, 255, 255);
+
+
+// Typography
+$font-family-sans-serif: "Tilt Neon", sans-serif;
+$headings-font-family: "Agbalumo", serif;
+
+
+$h1-font-size: 1rem * 8;
+$h2-font-size: 1rem * 2;
+$h3-font-size: 1rem * 1.75;
+
+
+$line-height-base: 1.6;
+
+
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+
+// Then add additional custom code here
+
+
+
